@@ -2,6 +2,32 @@ import React from 'react'
 import './faq.css';
 
 const Faq = () => {
+
+  const items = document.querySelectorAll(".accordion a");
+
+  function toggleAccordion(e) {
+    const wasActive = this.classList.contains('.accordion-item');
+    this.classList.toggle("active");
+    this.nextElementSibling.classList.toggle("active");
+
+    if(this.classList.contains('active'))
+    {
+      for (let i = 0; i < items.length; i++) 
+      {
+        items[i].nextElementSibling.classList.remove('active');
+        if (wasActive) {
+          this.classList.remove('active');
+        }
+        this.nextElementSibling.classList.add('active');
+        this.classList.remove('active');
+        // this.classList.add('active');
+      } 
+      // this.nextElementSibling.classList.toggle('active');
+    }  
+    
+  }
+
+  items.forEach((item) => item.addEventListener("click", toggleAccordion));
   return (
     <div>
     <section className="faqs-container bg-gradient-to-b from-[#34136e] to-[#7209B7]">

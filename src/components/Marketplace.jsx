@@ -29,8 +29,8 @@ const Marketplace = () => {
                         <p>We at shamla tech are well equipped to create an exclusive and custom metaverse platform that fulfills various purposes. Our experts assure that virtual environment will include a broad range of interactions and functionality
                             that will surely bring great value to your business.
                         </p>
-                        <a className="querybtn mx-2">Know More</a>
-                        <a className="querybtn mx-2">Connect</a>
+                        <a className="querybtn bg-gradient-to-r from-[#F72585] to-[#7209B7] hover:from-[#7209B7] hover:to-[#F72585] mx-2">Know More</a>
+                        <a className="querybtn bg-gradient-to-r from-[#F72585] to-[#7209B7] hover:from-[#7209B7] hover:to-[#F72585] mx-2">Connect</a>
                     </div>
                     <div className="panel-right">
                         <img src={Nftimage} alt=""/>

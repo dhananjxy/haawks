@@ -27,6 +27,10 @@ export default function Navbar() {
                 <a href="https://www.linkedin.com/company/metablock-technologies/" target="_blank"><i
                         className="fa-brands fa-linkedin"></i></a>
                 <a href="https://twitter.com/Metablocktech" target="_blank"><i className="fa-brands fa-twitter"></i></a>
+                <a href="https://twitter.com/Metablocktech" target="_blank"><i className="fa-brands fa-twitter"></i></a>
+                <a href="https://twitter.com/Metablocktech" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://twitter.com/Metablocktech" target="_blank"><i class="fa-brands fa-medium"></i></a>
+                
 
 
             </div>

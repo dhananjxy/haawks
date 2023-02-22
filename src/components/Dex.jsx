@@ -11,6 +11,12 @@ const Dex = () => {
     // });
   return (
     <div className="p-0 m-0 overflow-hidden w-100 bg-gradient-to-t from-[#34136e] to-[#7209B7]">
+        <h2 className='"pt-8 font-bold xl:text-5xl lg:text-4xl md:text-4xl text-3xl lg:leading-[2.5rem] 2xl:leading-[3.7rem]"' style={{display: "flex", justifyContent: "center"}}>
+        <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4CC9F0]">
+                {" "}
+                Our Services{" "}
+              </span>
+              </h2>
         <div className="wrapper">
     <div className="innerwrapper">
         <div className="panel1">
@@ -30,8 +36,8 @@ const Dex = () => {
                         <p>We at shamla tech are well equipped to create an exclusive and custom metaverse platform that fulfills various purposes. Our experts assure that virtual environment will include a broad range of interactions and functionality
                             that will surely bring great value to your business.
                         </p>
-                        <a className="querybtn mx-2">Know More</a>
-                        <a className="querybtn mx-2">Connect</a>
+                        <a className="querybtn bg-gradient-to-r from-[#F72585] to-[#7209B7] hover:from-[#7209B7] hover:to-[#F72585] mx-2">Know More</a>
+                        <a className="querybtn bg-gradient-to-r from-[#F72585] to-[#7209B7] hover:from-[#7209B7] hover:to-[#F72585] mx-2">Connect</a>
                     </div>
                     <div className="panel-right">
                         <img src={Deximage} alt=""/>
