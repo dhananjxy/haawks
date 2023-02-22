@@ -1,23 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import Faq from './components/Faq';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
+import Missionvision from './components/Missionvision';
+import Navbar from './components/Navbar';
+import Team from './components/Team';
+import Dex from './components/Dex';
+import Marketplace from './components/Marketplace';
+import Tokenomics from './components/Tokenomics';
+import Roadmap from './components/Roadmap';
+import Ctatext from './components/Ctatext';
+import Ctawimage from './components/Ctawimage';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Hero />
+      <Missionvision/>
+      <Dex />
+      <Marketplace />
+      <Ctatext />
+      <Tokenomics />
+      <Roadmap />
+      <Team />
+      <Ctawimage />
+      <Faq />
+      <Footer />
     </div>
   );
 }
