@@ -10,7 +10,7 @@ const Marketplace = () => {
         });
     });*/
   return (
-    <div className="p-0 m-0 overflow-hidden w-100 bg-gradient-to-b from-[#34136e] to-[#7209B7]"><div className="wrapper">
+    <div className="p-0 m-0 overflow-hidden w-100 bg-gradient-to-b from-[#000120] to-[#220056]"><div className="wrapper">
     <div className="innerwrapper">
         <div className="panel1">
             <div className="wrapperheadingbox">

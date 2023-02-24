@@ -5,7 +5,7 @@ import Vision from '../images/vision.jpeg'
 
 const Missionvision = () => {
   return (
-    <div className='p-10 bg-gradient-to-b from-[#34136e] to-[#7209B7]'>
+    <div className='p-10 bg-gradient-to-b from-[#000120] to-[#220056]'>
     <section className="about-us container mx-auto sm:px-4">
     <h2 className='"pt-4 font-bold xl:text-5xl lg:text-4xl md:text-4xl text-3xl lg:leading-[2.5rem] 2xl:leading-[3.7rem]"' style={{display: "flex", justifyContent: "center"}}>
         <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4CC9F0]">
@@ -22,11 +22,12 @@ const Missionvision = () => {
             <ul>
                 <li className='text-gray-100'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"/> Committed to revolutionizing the way transactions are conducted, by leveraging the power of blockchain technology to create a platform that is decentralized, secure, and scalable. </li>
                 <li className='text-gray-100'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"/> Our goal is to become the go-to blockchain platform for businesses and individuals looking to take advantage of the benefits of decentralization.</li>
-                <li className='text-gray-100'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"/> We aim to make blockchain technology more accessible to individuals and businesses all over the world, by providing an intuitive and user-friendly platform that is accessible to all.</li>
-                <li className='text-gray-100'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"/> We want to make sure that everyone has the opportunity to benefit from the advantages of decentralization and blockchain technology.</li>
-            
             </ul>
+            <br/>
+            <a className="mt-16 px-12 py-3 bg-gradient-to-r from-[#F72585] to-[#7209B7] hover:from-[#7209B7] hover:to-[#F72585] text-xl text-white font-semibold drop-shadow-lg rounded-full"
+            href="#">Read More</a> 
         </div>
+        
         <div className="lg:w-1/2 pr-4 pl-4 md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
             <img className='pt-20' src={Vision} style={{width: '90%'}} alt="Vision Image"/>
         </div>
@@ -43,12 +44,13 @@ const Missionvision = () => {
             <p className='text-white text-lg font-bold pb-10'>Our mission is to empower individuals and businesses to take control of their financial futures by providing a decentralized and transparent blockchain platform that enables fast, secure and low-cost transactions </p>
             <ul>
                 <li className='text-gray-100'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"></i> We strive to build a strong community of users and developers who share our vision of a decentralized future.</li>
-                <li className='text-gray-100'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"></i> By fostering a culture of collaboration and innovation, we aim to create a platform that is continuously evolving and adapting to meet the needs of our users.</li>
-                <li className='text-gray-100'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"></i> Our goal is to make blockchain technology accessible to everyone, regardless of their technical knowledge or experience.</li>
-                <li className='text-gray-100'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"></i> We are committed to providing our users with the tools and resources they need to succeed in a decentralized world.</li>
-            
+                <li className='text-gray-100'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"></i> By fostering a culture of collaboration and innovation, we aim to create a platform that is continuously evolving and adapting to meet the needs of our users.</li>  
             </ul>
+            <br/>
+            <a className="mt-16 px-12 py-3 bg-gradient-to-r from-[#F72585] to-[#7209B7] hover:from-[#7209B7] hover:to-[#F72585] text-xl text-white font-semibold drop-shadow-lg rounded-full"
+            href="#">Read More</a> 
         </div> 
+        
     </div>
 </section></div>
   )

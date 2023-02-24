@@ -30,7 +30,7 @@ const Faq = () => {
   items.forEach((item) => item.addEventListener("click", toggleAccordion));
   return (
     <div>
-    <section className="faqs-container bg-gradient-to-b from-[#34136e] to-[#7209B7]">
+    <section className="faqs-container bg-gradient-to-b from-[#000120] to-[#220056]">
     <div className="faqs">
     <h1 className="pt-4 pb-10 font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]">
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4CC9F0]">
@@ -67,7 +67,7 @@ const Faq = () => {
               all the bugs and errors that may occur. We also offer exciting
               deals to those who are looking forward to future forks, so you
               can have peace of mind under any future circumstances. We
-              believe it’s the least we can do for the clients that trust us
+              believe it's the least we can do for the clients that trust us
               for building their projects, so 3-month free support is on us.
             </p>
           </div>
@@ -79,7 +79,7 @@ const Faq = () => {
               Even though blockchain is the buzzword right now, there are a
               lot more decentralized technologies in works. We will choose the
               one which best suits your project requirements, other than that,
-              it’s the implementation you are looking forward to, for Dapps,
+              it's the implementation you are looking forward to, for Dapps,
               Blockchain tops in popularity, while for smart contracts,
               Ethereum does. So, we will have to go through the
               implementations you are looking forward to, to tell you if the

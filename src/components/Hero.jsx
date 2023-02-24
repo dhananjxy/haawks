@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div><header
-    className="w-full h-screen bg-[url('/src/images/hero_backdrop.png')] bg-cover bg-center flex justify-center items-center">
+    className="w-full h-screen bg-[url('/src/images/hero_backdrop1.png')] bg-cover bg-center flex justify-center items-center">
     <div className="flex flex-col justify-center items-center">
         <h1 className=" text-center text-6xl text-white font-bold drop-shadow-lg">Make the decentralized web
         </h1><h1 className=" text-center text-6xl text-white font-bold drop-shadow-lg">a reality for everyone.

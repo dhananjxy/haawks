@@ -27,15 +27,15 @@ export default function Navbar() {
                 <a href="https://www.linkedin.com/company/metablock-technologies/" target="_blank"><i
                         className="fa-brands fa-linkedin"></i></a>
                 <a href="https://twitter.com/Metablocktech" target="_blank"><i className="fa-brands fa-twitter"></i></a>
-                <a href="https://twitter.com/Metablocktech" target="_blank"><i className="fa-brands fa-twitter"></i></a>
                 <a href="https://twitter.com/Metablocktech" target="_blank"><i class="fa-brands fa-discord"></i></a>
                 <a href="https://twitter.com/Metablocktech" target="_blank"><i class="fa-brands fa-medium"></i></a>
+                <a href="https://twitter.com/Metablocktech" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                 
 
 
             </div>
         </div>
-        <div className="navbar bg-gradient-to-r from-[#F72585] to-[#7209B7]">
+        <div className="navbar bg-gradient-to-r from-[#7209B7] to-[#540444]">
             <h1 className="logo text-white text-3xl font-bold">HAAWKS</h1>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -65,7 +65,7 @@ export default function Navbar() {
                         <li><a href="/ComingSoon.html">Policies</a></li>
                     </ul>
                 </li> */}
-                <button className="nav-query-btn querybtn">Connect</button>
+                <button className="nav-query-btn querybtn bg-gradient-to-r from-[#F72585] to-[#7209B7] hover:from-[#7209B7] hover:to-[#F72585]">Connect</button>
                 <div className="callbox">
                     <i className="fas fa-phone-volume"></i>
                     <div className="nav-call-hover-details">

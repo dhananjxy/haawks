@@ -2,7 +2,7 @@ import React from 'react'
 
 const Roadmap = () => {
   return ( 
-    <div className='bg-gradient-to-b from-[#34136e] to-[#7209B7] p-10' id="roadmap">
+    <div className='bg-gradient-to-b from-[#000120] to-[#220056] p-10' id="roadmap">
       <div className='p-10'>
       {/* <div className="ml-10 w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r "></div> */}
       <h1 className="pt-4 pl-10 font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]" style={{display: "flex", justifyContent: "center"}}>
@@ -11,6 +11,8 @@ const Roadmap = () => {
                 RoadMap{" "}
               </span>
             </h1>
+            <p className='text-white pt-2' style={{display: "flex", justifyContent: "center"}}>Learn more about our Vision behind HAAWKS and our Mission towards greatness.</p>
+    <br/>
             </div>
             <div className='p-20'>
 <ol className="relative border-l border-white dark:border-white">                  
