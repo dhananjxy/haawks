@@ -11,6 +11,7 @@ import Tokenomics from './components/Tokenomics';
 import Roadmap from './components/Roadmap';
 import Ctatext from './components/Ctatext';
 import Ctawimage from './components/Ctawimage';
+import Htimeline from './components/Htimeline';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Ctatext />
       <Tokenomics />
       <Roadmap />
+      {/* <Htimeline /> */}
       <Team />
       <Ctawimage />
       <Faq />

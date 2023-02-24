@@ -24,7 +24,6 @@
 
 .faqs p {
     color: #333;
-    font-family: inherit;
     font-size: 17px;
     margin-bottom: 20px;
 }
@@ -96,7 +95,7 @@
 }
 
 .accordion .content {
-    opacity: 0;
+    opacity: 100;
     padding: 0 1rem;
     max-height: 0;
     border-bottom: 1px solid #e5e5e5;

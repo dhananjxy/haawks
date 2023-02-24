@@ -1,14 +1,57 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Deximage from '../images/dex.jpeg'
 
 const Dex = () => {
-    // document.onload(function() {
-    //     document.getElementById("myselection1").addEventListener('change', (e) => {
-    //         let demovalue = this.value;
-    //         document.getElementByClassName("panel").style.display = "none";
-    //         document.getElementById("#show1" + demovalue).style.display = "";
-    //     });
-    // });
+    
+ const detailsData=[{
+    group:"One",
+    name:"DEX Details",
+    lineOne:"Metaverse development has made a new revolution to the internet world where everyone can interact and even live their life in the digital world and do all the real life activities of the person in this platform.",
+    lineTwo:"We at shamla tech are well equipped to create an exclusive and custom metaverse platform that fulfills various purposes. Our experts assure that virtual environment will include a broad range of interactions and functionality that will surely bring great value to your business.",
+    buttonOne:"Know More",
+    buttonTwo:"Connect",
+    source:Deximage
+    }]
+
+const utilityData=[{
+    group:"Two",
+    name:"DEX Utility",
+lineOne:"Metaveb hkb khb rse development has made a new revolution to the internet world where everyone can interact and even live their life in the digital world and do all the real life activities of the person in this platform.",
+lineTwo:"We at sham kjbkhbla tech are well equipped to create an exclusive and custom metaverse platform that fulfills various purposes. Our experts assure that virtual environment will include a broad range of interactions and functionality that will surely bring great value to your business.",
+buttonOne:"Know More",
+buttonTwo:"Connect",
+source:Deximage
+
+}]
+
+    // const data=[{
+    //     group:"One",
+    //     name:"DEX",
+    //     lineOne:"Metaverse development has made a new revolution to the internet world where everyone can interact and even live their life in the digital world and do all the real life activities of the person in this platform.",
+    //     lineTwo:"We at shamla tech are well equipped to create an exclusive and custom metaverse platform that fulfills various purposes. Our experts assure that virtual environment will include a broad range of interactions and functionality that will surely bring great value to your business.",
+    //     buttonOne:"Know More",
+    //     buttonTwo:"Connect",
+    //     source:Deximage
+    //     },
+    //     {
+    //         group:"Two",
+    //         name:"DEX Utility",
+    //     lineOne:"Metavergtvjvjvvjvj vhse development has made a new revolution to the internet world where everyone can interact and even live their life in the digital world and do all the real life activities of the person in this platform.",
+    //     lineTwo:"We at shjnkbjhvhchngb vgvamla tech are well equipped to create an exclusive and custom metaverse platform that fulfills various purposes. Our experts assure that virtual environment will include a broad range of interactions and functionality that will surely bring great value to your business.",
+    //     buttonOne:"Know More",
+    //     buttonTwo:"Connect",
+    //     source:Deximage
+
+    //     }]
+    const [dexData, setDexData]=useState(detailsData);
+
+    function handleChange(e){
+        const value = e.target.value;
+    const filteredContent =
+      value === "One" ? detailsData: utilityData ;
+    setDexData(filteredContent);
+
+    }
   return (
     <div className="p-0 m-0 overflow-hidden w-100 bg-gradient-to-t from-[#000120] to-[#220056]">
         <h2 className='"pt-8 font-bold xl:text-5xl lg:text-4xl md:text-4xl text-3xl lg:leading-[2.5rem] 2xl:leading-[3.7rem]"' style={{display: "flex", justifyContent: "center"}}>
@@ -21,14 +64,30 @@ const Dex = () => {
     <div className="innerwrapper">
         <div className="panel1">
             <div className="wrapperheadingbox">
-                <div className="wrapperheading" data-aos="fade-right">DEX</div>
-                <div className="wrapperheadingline" data-aos="fade-left"></div>
+                <div className="wrapperheading" >DEX</div>
+                <div className="wrapperheadingline" ></div>
             </div>
-            <select id="myselection1">
+            <select id="myselection1" onChange={handleChange}>
                 <option value="One">DEX Details</option>
                 <option value="Two">DEX Utility</option>
             </select>
-            <div className="panel show" id="show1One">
+            {dexData.map((p)=>(<div className="panel show" id="show1One">
+                <div className="panel-row">
+                    <div className="panel-left">
+                        <h2 className="panel-title">{p.name}</h2>
+                        <p>{p.lineOne}</p>
+                        <p>{p.lineTwo}</p>
+                        <a className="querybtn bg-gradient-to-r from-[#F72585] to-[#7209B7] hover:from-[#7209B7] hover:to-[#F72585] mx-2">{p.buttonOne}</a>
+                        <a className="querybtn bg-gradient-to-r from-[#F72585] to-[#7209B7] hover:from-[#7209B7] hover:to-[#F72585] mx-2">{p.buttonTwo}</a>
+                    </div>
+                    <div className="panel-right">
+                        <img src={p.source} alt=""/>
+
+                    </div>
+                </div>
+
+            </div>))}
+            {/* <div className="panel show" id="show1One">
                 <div className="panel-row">
                     <div className="panel-left">
                         <h2 className="panel-title">DEX Details</h2>
@@ -49,7 +108,7 @@ const Dex = () => {
             <div className="panel" id="show1Two">
                 <div className="panel-row">
                     <div className="panel-left">
-                        <h2 className="panel-title">NFT</h2>
+                        <h2 className="panel-title">DEX Utility</h2>
                         <p>NFTs are the new trend in the market that helps to digitalize masterpieces and different collectibles into exceptional, obvious resources that are easy to exchange on the blockchain. Non-Fungible Tokens have made their way
                             into crypto market and quickly has garnered considerable amounts of capital in no time.
                         </p>
@@ -62,7 +121,7 @@ const Dex = () => {
                         <img  src={Deximage} alt=""/>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* <div className="panel" id="show1Three">
                 <div className="panel-row">

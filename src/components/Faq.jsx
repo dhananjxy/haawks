@@ -1,33 +1,10 @@
 import React from 'react'
 import './faq.css';
+import faqs from './dummy';
+import Questions from './Questions';
 
 const Faq = () => {
 
-  const items = document.querySelectorAll(".accordion a");
-
-  function toggleAccordion(e) {
-    const wasActive = this.classList.contains('.accordion-item');
-    this.classList.toggle("active");
-    this.nextElementSibling.classList.toggle("active");
-
-    if(this.classList.contains('active'))
-    {
-      for (let i = 0; i < items.length; i++) 
-      {
-        items[i].nextElementSibling.classList.remove('active');
-        if (wasActive) {
-          this.classList.remove('active');
-        }
-        this.nextElementSibling.classList.add('active');
-        this.classList.remove('active');
-        // this.classList.add('active');
-      } 
-      // this.nextElementSibling.classList.toggle('active');
-    }  
-    
-  }
-
-  items.forEach((item) => item.addEventListener("click", toggleAccordion));
   return (
     <div>
     <section className="faqs-container bg-gradient-to-b from-[#000120] to-[#220056]">
@@ -44,20 +21,18 @@ const Faq = () => {
       </p> */}
 
       <div className="accordion">
-        <div className="accordion-item">
-          <a>How do you define the best blockchain development company?</a>
-          <div className="content">
+        {faqs.map((content)=>(
+          <Questions question={content.question} answer={content.answer} />
+        ))}
+        {/* <div className="accordion-item">
+          <a onClick={()=>setIsActive(!isActive)}>{props.question}</a>
+          {isActive && <div className="content active">
             <p>
-              The best blockchain app development company is one that can
-              comprehend your idea and implement it on the decentralized
-              systems, it seems easy but it much difficult due to the
-              decentralized system’s general nature. If you are confused
-              regarding anything, you can send us your requirements, we will
-              get back to you within 24 hours with a free evaluation
+              {props.answer}
             </p>
-          </div>
-        </div>
-        <div className="accordion-item">
+          </div>}
+        </div> */}
+        {/* <div className="accordion-item">
           <a>
             Does your blockchain development company offer after delivery
             support?</a>
@@ -142,7 +117,7 @@ const Faq = () => {
               analyzing these factors.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   </section>
