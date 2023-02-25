@@ -2,27 +2,28 @@ import React from 'react'
 import './faq.css';
 import faqs from './dummy';
 import Questions from './Questions';
+import { Fade } from 'react-reveal';
 
 const Faq = () => {
 
   return (
     <div>
     <section className="faqs-container bg-gradient-to-t from-[#000120] to-[#220056]">
-    <div className="faqs">
+    <div className="faqs"><Fade bottom>
     <h1 className="pt-4 pb-10 font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]">
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4CC9F0]">
                 {" "}
                 FAQs{" "}
               </span>
-            </h1>
+            </h1></Fade>
       {/* <p className='p-2'>
         Tying loose ends regarding Blockchain is tough, but to give you some
         clarity, here are the top FAQs by our previous clients.
       </p> */}
-
+      
       <div className="accordion">
         {faqs.map((content)=>(
-          <Questions question={content.question} answer={content.answer} />
+          <Fade bottom cascade><Questions question={content.question} answer={content.answer} /></Fade>
         ))}
         {/* <div className="accordion-item">
           <a onClick={()=>setIsActive(!isActive)}>{props.question}</a>

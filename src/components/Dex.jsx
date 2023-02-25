@@ -54,13 +54,14 @@ source:Deximage
     }
   return (
     <div className="p-0 m-0 overflow-hidden w-100 bg-gradient-to-t from-[#000120] to-[#220056]">
-        <Fade left cascade>
+        <Fade bottom>
         <h2 className='"pt-8 font-bold xl:text-5xl lg:text-4xl md:text-4xl text-3xl lg:leading-[2.5rem] 2xl:leading-[3.7rem]"' style={{display: "flex", justifyContent: "center"}}>
         <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4CC9F0]">
                 {" "}
                 Our Services{" "}
               </span>
-              </h2>
+              </h2></Fade>
+              <Fade left cascade>
         <div className="wrapper">
     <div className="innerwrapper">
         <div className="panel1">

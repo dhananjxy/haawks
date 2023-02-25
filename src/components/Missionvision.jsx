@@ -7,16 +7,18 @@ import Vision from '../images/vision.jpeg'
 const Missionvision = () => {
   return (
     <div className='p-10 bg-gradient-to-b from-[#000120] to-[#220056]'>
-    <Fade bottom cascade><section className="about-us container mx-auto sm:px-4">
-    <h2 className='"pt-4 font-bold xl:text-5xl lg:text-4xl md:text-4xl text-3xl lg:leading-[2.5rem] 2xl:leading-[3.7rem]"' style={{display: "flex", justifyContent: "center"}}>
+    <section className="about-us container mx-auto sm:px-4">
+    <Fade bottom><h2 className='"pt-4 font-bold xl:text-5xl lg:text-4xl md:text-4xl text-3xl lg:leading-[2.5rem] 2xl:leading-[3.7rem]"' style={{display: "flex", justifyContent: "center"}}>
         <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4CC9F0]">
                 {" "}
                 Know About Us{" "}
               </span>
               </h2>
               <p className='text-white pt-2' style={{display: "flex", justifyContent: "center"}}>Learn more about our Vision behind HAAWKS and our Mission towards greatness.</p>
+    </Fade>
     <br/>
     <div style={{maxWidth: "1200px",  margin: "auto"}} className="flex flex-wrap">
+    <Fade left cascade>
         <div className="lg:w-1/2 pr-4 pl-4 md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
             <h2 className='text-3xl text-[#4CC9F0] p-5 font-bold'>Our Vision</h2>
             <p className='text-white text-lg font-bold pb-10'>Our vision is to make blockchain technology accessible to the masses. We strive to create a decentralized platform and ecosystem that is secure, transparent, and efficient. </p>
@@ -31,11 +33,12 @@ const Missionvision = () => {
         
         <div className="lg:w-1/2 pr-4 pl-4 md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
             <img className='pt-20' src={Vision} style={{width: '90%'}} alt="Vision Image"/>
-        </div>
+        </div></Fade>
     </div>
     <br/>
     <br/>    
     <div style={{maxWidth: "1200px",  margin: "auto"}} className="flex flex-wrap">
+        <Fade right cascade>
         <div className="lg:w-1/2 pr-4 pl-4 md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
             <img className='pt-20' src={Mission} style={{width: '90%'}}  alt="Mission Image"/>
         </div>
@@ -51,9 +54,9 @@ const Missionvision = () => {
             <a className="mt-16 px-12 py-3 bg-gradient-to-r from-[#F72585] to-[#7209B7] hover:from-[#7209B7] hover:to-[#F72585] text-xl text-white font-semibold drop-shadow-lg rounded-full"
             href="#">Read More</a> 
         </div> 
-        
+        </Fade>
     </div>
-</section></Fade></div>
+</section></div>
   )
 }
 
