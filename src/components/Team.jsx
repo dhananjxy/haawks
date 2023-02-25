@@ -1,5 +1,5 @@
 import React from 'react'
-
+//import {Fade} from 'react-reveal'
 const Team = () => {
   return (
     <section className='bg-gradient-to-t from-[#000120] to-[#220056]' id='team'>
@@ -150,7 +150,8 @@ const Team = () => {
                   </ul>
               </div>
           </div>  
-      </div>  
+      </div> 
+
   </div>
 </section>
   )

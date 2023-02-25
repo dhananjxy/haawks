@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { Fade } from 'react-reveal'
 const Ctatext = () => {
   return (
     <div>
-    <div className="bg-[#000120]">
+    <div className="bg-[#000120]"><Fade bottom cascade>
         <div className="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
             <h2 className="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
                 <span className="block">
@@ -17,7 +17,7 @@ const Ctatext = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </Fade></div>
     </div>
   )
 }

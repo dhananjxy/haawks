@@ -1,6 +1,7 @@
 import React from 'react'
 import { useRef } from 'react';
 import { PieChart } from "react-minimal-pie-chart";
+import { Fade } from 'react-reveal'
 import './token.css';
 
 const Tokenomics = () => {
@@ -20,7 +21,7 @@ const Tokenomics = () => {
       const toolTip = useRef();
       return (
         <div className="bg-gradient-to-t from-[#000120] to-[#220056] p-10">
-
+<Fade left cascade>
             {/* <div className="ml-20 w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r "></div> */}
         <h1 className="pt-4 font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]" style={{display: "flex", justifyContent: "center"}}>
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4CC9F0] pb-3 pl-20">
@@ -86,6 +87,7 @@ const Tokenomics = () => {
               </ul>
             </div>
         </div>
+        </Fade>
       </div>
   )
 }

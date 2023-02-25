@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Nftimage from '../images/nft.jpeg'
-
+import { Fade } from 'react-reveal'
 const Marketplace = () => {
    
  const detailsData=[{
@@ -54,7 +54,7 @@ source:Nftimage
     }
   return (
     <div className="p-0 m-0 overflow-hidden w-100 bg-gradient-to-b from-[#000120] to-[#220056]">
-        
+       <Fade right cascade> 
         <div className="wrapper">
     <div className="innerwrapper">
         <div className="panel1">
@@ -170,6 +170,7 @@ source:Nftimage
         
     </div>
 </div>
+</Fade>
 </div>
   )
 }

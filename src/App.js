@@ -11,7 +11,9 @@ import Tokenomics from './components/Tokenomics';
 import Roadmap from './components/Roadmap';
 import Ctatext from './components/Ctatext';
 import Ctawimage from './components/Ctawimage';
-import Htimeline from './components/Htimeline';
+//import Htimeline from './components/Htimeline';
+//import Community from './components/Community';
+import Blog from './components/Blog';
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
       <Roadmap />
       {/* <Htimeline /> */}
       <Team />
+      {/* <Community /> */}
+      <Blog />
       <Ctawimage />
       <Faq />
       <Footer />
