@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/haawks/static/css/main.b00d218e.css",
-    "main.js": "/haawks/static/js/main.9439f02a.js",
+    "main.css": "/haawks/static/css/main.a1ada0d7.css",
+    "main.js": "/haawks/static/js/main.50357c79.js",
     "static/js/787.340af62a.chunk.js": "/haawks/static/js/787.340af62a.chunk.js",
+    "static/media/asset_token.png": "/haawks/static/media/asset_token.c7c52283830b310f60aa.png",
     "static/media/hero_backdrop.png": "/haawks/static/media/hero_backdrop.dbc51eb837ea9bbf62f5.png",
     "static/media/hero_backdrop1.png": "/haawks/static/media/hero_backdrop1.aa85dc981ec7e9dde1a1.png",
     "static/media/vision.jpeg": "/haawks/static/media/vision.450f9d0926f307ab1721.jpeg",
@@ -11,12 +12,12 @@
     "static/media/dex.jpeg": "/haawks/static/media/dex.0db796bd1f139e9a95cc.jpeg",
     "static/media/mission1.jpeg": "/haawks/static/media/mission1.2c4187052619c3e491b9.jpeg",
     "index.html": "/haawks/index.html",
-    "main.b00d218e.css.map": "/haawks/static/css/main.b00d218e.css.map",
-    "main.9439f02a.js.map": "/haawks/static/js/main.9439f02a.js.map",
+    "main.a1ada0d7.css.map": "/haawks/static/css/main.a1ada0d7.css.map",
+    "main.50357c79.js.map": "/haawks/static/js/main.50357c79.js.map",
     "787.340af62a.chunk.js.map": "/haawks/static/js/787.340af62a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b00d218e.css",
-    "static/js/main.9439f02a.js"
+    "static/css/main.a1ada0d7.css",
+    "static/js/main.50357c79.js"
   ]
 }
