@@ -120,7 +120,10 @@
 .top-bar-right a:hover {
   color: #4CC9F0;
 }
+.stickbar{
+position: fixed;
 
+}
 /* top-bar end */
 
 .navbar {
@@ -133,8 +136,7 @@
   -webkit-box-shadow: 0 0 16px rgb(0 0 0 / 20%);
   -moz-box-shadow: 0 0 16px rgba(0, 0, 0, .2);
   height: 12vh;
-  /*position: relative;*/
-  /*z-index: 901;*/
+  z-index: 901;
 }
 
 .navbar-fixed {

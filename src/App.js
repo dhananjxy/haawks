@@ -9,11 +9,15 @@ import Dex from './components/Dex';
 import Marketplace from './components/Marketplace';
 import Tokenomics from './components/Tokenomics';
 import Roadmap from './components/Roadmap';
-import Ctatext from './components/Ctatext';
+// import Ctatext from './components/Ctatext';
 import Ctawimage from './components/Ctawimage';
-//import Htimeline from './components/Htimeline';
+// import Htimeline from './components/Htimeline';
 //import Community from './components/Community';
 import Blog from './components/Blog';
+import Assetmanagement from './components/Assetmanagement';
+import Newsletter from './components/Newsletter';
+;
+//import Horizontaltimeline from './components/Horizontaltimeline';
 
 
 function App() {
@@ -24,10 +28,15 @@ function App() {
       <Missionvision/>
       <Dex />
       <Marketplace />
-      <Ctatext />
+      <Assetmanagement />
+      {/* <Ctatext /> */}
+      <Newsletter />
       <Tokenomics />
-      <Roadmap />
+      {/* <Roadmap /> */}
+      {/* <Chronotimeline /> */}
+      {/* <Horizontaltimeline /> */}
       {/* <Htimeline /> */}
+      {/* <Horiroadmap /> */}
       <Team />
       {/* <Community /> */}
       <Blog />

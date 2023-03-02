@@ -15,6 +15,7 @@ const Htimeline = () => {
                </div>
                 <span class="ps-sp-top">01</span>
             </li>
+            
             <li>
                 <div class="ps-bot">
                   <p><h4>Congratulations</h4>On winning INSTA award! Share with Peers</p>
@@ -50,6 +51,15 @@ const Htimeline = () => {
                  <h5>Jan '20</h5>
                </div>
                 <span class="ps-sp-top">05</span>
+            </li>
+            <li>
+                <div class="ps-bot">
+                  <p><h4>Congratulations</h4>On winning INSTA award! Share with Peers</p>
+                </div>
+              <div class="ps-top">
+                 <h5>Nov '19</h5>
+               </div>
+                <span class="ps-sp-bot">06</span>
             </li>
         </ol>
     </div>

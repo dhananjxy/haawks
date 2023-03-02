@@ -29,14 +29,14 @@ const Tokenomics = () => {
                 Tokenomics{" "}
               </span>
             </h1>
-            <p className='text-white pt-2' style={{display: "flex", justifyContent: "center"}}>Learn more about our Vision behind HAAWKS and our Mission towards greatness.</p>
+            <p className='text-white text-lg pt-4 px-20' style={{display: "flex", justifyContent: "center"}}>“Based on 10% token release at TGE for Pre-Public sale investors and 50% token release for Public sale investors at TGE.<br/> There will be a vesting period of 24 months for all Pre-Public sale investors and 12 months for Public Sale investors and the tokens will be released on a monthly basis as per the token release schedule.<br/> Team tokens are locked for 6 months after TGE and will be vested for 18 months after that and released as per token release schedule.”</p>
     <br/>
             <div className="customTooltip" ref={toolTip}>
       </div>
-        <div className="pi-data tknTop flex justify-center p-20">
+        <div className="pi-data tknTop flex justify-center">
           
             <div className="tkn_distribution_wrp">
-              <div className="mainPieCgar px-20">
+              <div className="mainPieCgar">
                 <PieChart
                   animationDuration={1000}
                   animate={true}
@@ -68,7 +68,7 @@ const Tokenomics = () => {
                   Total <small>500,000,000</small>
                 </p>
               </div>
-              <ul className="ul_data-list px-20">
+              <ul className="ul_data-list pl-20">
                 <h5>Token Pools</h5>
                 {dataMock &&
                   dataMock.map((data, id) => {

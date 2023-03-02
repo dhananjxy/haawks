@@ -22,9 +22,19 @@ const Faq = () => {
       </p> */}
       
       <div className="accordion">
-        {faqs.map((content)=>(
+        <div className='flex flex-row'>
+          <div className='p-10 w-1/2'>
+            {faqs.map((content)=>(
           <Fade bottom cascade><Questions question={content.question} answer={content.answer} /></Fade>
         ))}
+          </div>
+          <div className='p-10 w-1/2'>
+          {faqs.map((content)=>(
+          <Fade bottom cascade><Questions question={content.question} answer={content.answer} /></Fade>
+        ))}
+          </div>
+        </div>
+        
         {/* <div className="accordion-item">
           <a onClick={()=>setIsActive(!isActive)}>{props.question}</a>
           {isActive && <div className="content active">

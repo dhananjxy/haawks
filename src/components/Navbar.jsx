@@ -7,8 +7,9 @@ export default function Navbar() {
         navbar.classList.toggle("nav_active")
     }
   return (
-    <div className='overflow-hidden'>
-      <header>
+    <div className=''>
+      <header className="overflow-hidden h-auto">
+        
         <div className="top-bar">
             <div className="top-bar-left">
                 <div className="top-bar-email">
@@ -35,6 +36,7 @@ export default function Navbar() {
 
             </div>
         </div>
+        <div className="">
         <div className="navbar bg-gradient-to-r from-[#220056] to-[#540444]">
             <h1 className="logo text-white text-3xl font-bold">HAAWKS</h1>
             <ul>
@@ -66,7 +68,7 @@ export default function Navbar() {
                     </ul>
                 </li> */}
                 <button className="nav-query-btn querybtn bg-gradient-to-r from-[#F72585] to-[#7209B7] hover:from-[#7209B7] hover:to-[#F72585]">Connect</button>
-                <div className="callbox">
+                {/* <div className="callbox">
                     <i className="fas fa-phone-volume"></i>
                     <div className="nav-call-hover-details">
                         <div className="nav-call-hover-details-up">
@@ -99,7 +101,7 @@ export default function Navbar() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </ul>
             <div className="navbar-icon" onClick={toogleUl}>
@@ -107,6 +109,8 @@ export default function Navbar() {
                 <i className="fa-solid fa-xmark"></i>
             </div>
         </div>
+        </div>
+        
 
     </header>
     </div>

@@ -14,7 +14,7 @@ const Team = () => {
             </h1>
           <p className="font-light text-white lg:mb-16 sm:text-xl dark:text-white">Meet the extremely talented, hard working and intelligent individuals who are an integral part of our team.</p>
       </Fade></div> <Fade bottom>
-      <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+      <div className="grid grid-cols-1 gap-8 mb-6 lg:mb-16 md:grid-cols-1">
           <div className="items-center bg-[#16081c] rounded-lg shadow sm:flex">
               <a href="#">
                   <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />

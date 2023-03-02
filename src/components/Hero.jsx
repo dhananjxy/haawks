@@ -2,9 +2,9 @@ import React from 'react'
 import { Fade } from 'react-reveal'
 const Hero = () => {
   return (
-    <div><header
-    className="w-full h-screen bg-[url('/src/images/hero_backdrop1.png')] bg-cover bg-center flex justify-center items-center">
-    <div className="flex flex-col justify-center items-center">
+    <div ><header
+    className="overflow-hidden w-full h-screen bg-[url('/src/images/hero_backdrop1.png')] bg-cover bg-center flex justify-center items-center">
+    <div className="overflow-hidden flex flex-col justify-center items-center">
         <Fade top><h1 className=" text-center text-6xl text-white font-bold drop-shadow-lg">Make the decentralized web
         </h1><h1 className=" text-center text-6xl text-white font-bold drop-shadow-lg">a reality for everyone.
         </h1></Fade>
