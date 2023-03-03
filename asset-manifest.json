@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/haawks/static/css/main.a1ada0d7.css",
-    "main.js": "/haawks/static/js/main.50357c79.js",
+    "main.css": "/haawks/static/css/main.143486cb.css",
+    "main.js": "/haawks/static/js/main.177d0341.js",
     "static/js/787.340af62a.chunk.js": "/haawks/static/js/787.340af62a.chunk.js",
     "static/media/asset_token.png": "/haawks/static/media/asset_token.c7c52283830b310f60aa.png",
     "static/media/hero_backdrop.png": "/haawks/static/media/hero_backdrop.dbc51eb837ea9bbf62f5.png",
@@ -10,14 +10,15 @@
     "static/media/nft.jpeg": "/haawks/static/media/nft.50af91bb271470b77058.jpeg",
     "static/media/ctaimage.jpeg": "/haawks/static/media/ctaimage.0e2e12451be172a2d758.jpeg",
     "static/media/dex.jpeg": "/haawks/static/media/dex.0db796bd1f139e9a95cc.jpeg",
+    "static/media/roadmap3.png": "/haawks/static/media/roadmap3.f0a6e016a25191ef8440.png",
     "static/media/mission1.jpeg": "/haawks/static/media/mission1.2c4187052619c3e491b9.jpeg",
     "index.html": "/haawks/index.html",
-    "main.a1ada0d7.css.map": "/haawks/static/css/main.a1ada0d7.css.map",
-    "main.50357c79.js.map": "/haawks/static/js/main.50357c79.js.map",
+    "main.143486cb.css.map": "/haawks/static/css/main.143486cb.css.map",
+    "main.177d0341.js.map": "/haawks/static/js/main.177d0341.js.map",
     "787.340af62a.chunk.js.map": "/haawks/static/js/787.340af62a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1ada0d7.css",
-    "static/js/main.50357c79.js"
+    "static/css/main.143486cb.css",
+    "static/js/main.177d0341.js"
   ]
 }
