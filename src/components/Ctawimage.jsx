@@ -4,7 +4,7 @@ import Ctaimage from '../images/ctaimage.jpeg'
 const Ctawimage = () => {
   return (
     <div>
-    <div className="bg-[#000120] px-16 py-10 overflow-hidden relative">
+    <div className="bg-[#220056] px-16 py-10 overflow-hidden relative">
         <div className="text-start w-1/2 py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
             <h2 className="text-3xl font-extrabold text-bold dark:text-white sm:text-4xl">
                 <span className="block text-gradient-to-br from-[#4361EE] to-[#4CC9F0]">

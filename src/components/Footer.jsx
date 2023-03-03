@@ -8,7 +8,7 @@ import Fade from "react-reveal/Fade";
 
 function Footer() {
   return (
-    <div className="bg-gradient-to-b from-[#000120] to-[#220056]  lg:px-28 pt-14 px-10 pb-10">
+    <div className="bg-gradient-to-t from-[#000120] to-[#220056]  lg:px-28 pt-14 px-10 pb-10">
       <Fade bottom cascade>
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20">
           <div>

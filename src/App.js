@@ -5,8 +5,8 @@ import Hero from './components/Hero';
 import Missionvision from './components/Missionvision';
 import Navbar from './components/Navbar';
 import Team from './components/Team';
-import Dex from './components/Dex';
-import Marketplace from './components/Marketplace';
+// import Dex from './components/Dex';
+// import Marketplace from './components/Marketplace';
 import Tokenomics from './components/Tokenomics';
 import Roadmap from './components/Roadmap';
 // import Ctatext from './components/Ctatext';
@@ -14,8 +14,10 @@ import Ctawimage from './components/Ctawimage';
 // import Htimeline from './components/Htimeline';
 //import Community from './components/Community';
 import Blog from './components/Blog';
-import Assetmanagement from './components/Assetmanagement';
+// import Assetmanagement from './components/Assetmanagement';
 import Newsletter from './components/Newsletter';
+import Horizroadmap from './components/Horizroadmap';
+import Services from './components/Services';
 ;
 //import Horizontaltimeline from './components/Horizontaltimeline';
 
@@ -26,12 +28,14 @@ function App() {
       <Navbar />
       <Hero />
       <Missionvision/>
-      <Dex />
+      <Services />
+      {/* <Dex />
       <Marketplace />
-      <Assetmanagement />
+      <Assetmanagement /> */}
       {/* <Ctatext /> */}
       <Newsletter />
       <Tokenomics />
+      <Horizroadmap />
       {/* <Roadmap /> */}
       {/* <Chronotimeline /> */}
       {/* <Horizontaltimeline /> */}

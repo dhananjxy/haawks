@@ -7,8 +7,8 @@ export default function Navbar() {
         navbar.classList.toggle("nav_active")
     }
   return (
-    <div className=''>
-      <header className="overflow-hidden h-auto">
+    <>
+
         
         <div className="top-bar">
             <div className="top-bar-left">
@@ -36,8 +36,8 @@ export default function Navbar() {
 
             </div>
         </div>
-        <div className="">
-        <div className="navbar bg-gradient-to-r from-[#220056] to-[#540444]">
+    
+        <div className="stickbar navbar bg-gradient-to-r from-[#220056] to-[#540444]">
             <h1 className="logo text-white text-3xl font-bold">HAAWKS</h1>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -109,10 +109,10 @@ export default function Navbar() {
                 <i className="fa-solid fa-xmark"></i>
             </div>
         </div>
-        </div>
+        
         
 
-    </header>
-    </div>
+    
+    </>
   );
 }

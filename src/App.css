@@ -121,8 +121,11 @@
   color: #4CC9F0;
 }
 .stickbar{
-position: fixed;
-
+position: sticky;
+top: 0;
+z-index: 999;
+left:0;
+right:0;
 }
 /* top-bar end */
 

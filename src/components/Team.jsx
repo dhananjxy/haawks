@@ -2,8 +2,8 @@ import React from 'react'
 import {Fade} from 'react-reveal'
 const Team = () => {
   return (
-    <section className='bg-gradient-to-t from-[#000120] to-[#220056]' id='team'>
-  <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+    <section className='bg-gradient-to-b from-[#000120] to-[#220056]' id='team'>
+  <div className="py-4 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
       <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
         <Fade bottom>
       <h1 className="pt-4 font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]">

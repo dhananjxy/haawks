@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 function Blog() {
   return (
-    <div className="bg-gradient-to-b from-[#000120] to-[#220056] pt-14   lg:px-28 px-10 pb-10">
+    <div className="bg-gradient-to-t from-[#000120] to-[#220056] pt-14   lg:px-28 px-10 pb-10">
       <Fade bottom cascade>
       <h2 className='"pt-8 font-semibold xl:text-4xl lg:text-4xl md:text-4xl text-3xl lg:leading-[2.5rem] 2xl:leading-[3.7rem]"' style={{display: "flex", justifyContent: "center"}}>
         <span className="pb-2 text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4CC9F0]">
