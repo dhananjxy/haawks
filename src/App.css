@@ -2,6 +2,9 @@
   text-align: center;
 }
 /* The hero image */
+.vheight{
+height: 83vh;
+}
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image:url("/src/images/hero_backdrop.png");
@@ -17,7 +20,7 @@
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -61,7 +64,7 @@
 
 .top-bar {
   width: 100%;
-  height: 8vh;
+  height: 7vh;
   background-color: #000120;
   position: relative;
   display: flex;
@@ -79,7 +82,7 @@
 .top-bar-email,
 .top-bar-contact,
 .top-bar-skype {
-  margin-right: 10px;
+  margin-right: 20px;
   transition: all 0.5s ease;
 }
 
@@ -88,7 +91,7 @@
 .top-bar-skype i {
   color: #ffffff;
   padding-top: 3px;
-  margin-right: 4px;
+  margin-right: 6px;
   transition: all 0.5s ease;
 }
 
@@ -113,7 +116,7 @@
 
 .top-bar-right a {
   color: #fff;
-  margin: 0px 6px;
+  margin: 0px 12px;
   transition: all 0.5s ease;
 }
 
@@ -126,6 +129,7 @@ top: 0;
 z-index: 999;
 left:0;
 right:0;
+height: 8vh;
 }
 /* top-bar end */
 
@@ -138,7 +142,7 @@ right:0;
   box-shadow: 0 0 16px rgb(0 0 0 / 20%);
   -webkit-box-shadow: 0 0 16px rgb(0 0 0 / 20%);
   -moz-box-shadow: 0 0 16px rgba(0, 0, 0, .2);
-  height: 12vh;
+  height: 10vh;
   z-index: 901;
 }
 

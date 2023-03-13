@@ -18,6 +18,8 @@ import Blog from './components/Blog';
 import Newsletter from './components/Newsletter';
 import Horizroadmap from './components/Horizroadmap';
 import Services from './components/Services';
+import Slideroadmap from './components/Slideroadmap';
+import Roadmapcarousel from './components/Roadmapcarousel';
 ;
 //import Horizontaltimeline from './components/Horizontaltimeline';
 
@@ -35,7 +37,10 @@ function App() {
       {/* <Ctatext /> */}
       <Newsletter />
       <Tokenomics />
-      <Horizroadmap />
+      <Roadmapcarousel />
+      {/* <Slideroadmap /> */}
+      
+      {/* <Horizroadmap /> */}
       {/* <Roadmap /> */}
       {/* <Chronotimeline /> */}
       {/* <Horizontaltimeline /> */}

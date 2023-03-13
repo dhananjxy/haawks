@@ -37,7 +37,7 @@ export default function Navbar() {
             </div>
         </div>
     
-        <div className="stickbar navbar bg-gradient-to-r from-[#220056] to-[#540444]">
+        <div className="stickbar navbar  bg-gradient-to-r from-[#220056] to-[#540444]">
             <h1 className="logo text-white text-3xl font-bold">HAAWKS</h1>
             <ul>
                 <li><a href="#">Home</a></li>
