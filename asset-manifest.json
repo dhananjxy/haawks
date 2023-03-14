@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/haawks/static/css/main.3b58224d.css",
-    "main.js": "/haawks/static/js/main.f6c6597b.js",
+    "main.css": "/haawks/static/css/main.c36ea4a6.css",
+    "main.js": "/haawks/static/js/main.5f940930.js",
     "static/js/787.340af62a.chunk.js": "/haawks/static/js/787.340af62a.chunk.js",
+    "static/media/ctaimage.png": "/haawks/static/media/ctaimage.b1ecd54c0b9d7eb7b51c.png",
     "static/media/hero_backdrop.png": "/haawks/static/media/hero_backdrop.dbc51eb837ea9bbf62f5.png",
     "static/media/hero_backdrop1.png": "/haawks/static/media/hero_backdrop1.aa85dc981ec7e9dde1a1.png",
     "static/media/nftgraphic.png": "/haawks/static/media/nftgraphic.c6d59983a07447f5af07.png",
-    "static/media/ctaimage.jpeg": "/haawks/static/media/ctaimage.0e2e12451be172a2d758.jpeg",
     "static/media/dexgraphic.png": "/haawks/static/media/dexgraphic.a50ebb8093a618744257.png",
+    "static/media/Haawks logo.PNG": "/haawks/static/media/Haawks logo.244f3ec8eb11677a2d66.PNG",
     "static/media/missiongraphic.png": "/haawks/static/media/missiongraphic.1a54ba617ee5b236aafd.png",
     "static/media/Group 9.svg": "/haawks/static/media/Group 9.b8be9d2e4456eea9e1a206b95df1f949.svg",
     "static/media/Group 13.svg": "/haawks/static/media/Group 13.82522029c585ed2d133849f62a48ae7d.svg",
@@ -28,12 +29,12 @@
     "static/media/revicons.ttf": "/haawks/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/haawks/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/haawks/index.html",
-    "main.3b58224d.css.map": "/haawks/static/css/main.3b58224d.css.map",
-    "main.f6c6597b.js.map": "/haawks/static/js/main.f6c6597b.js.map",
+    "main.c36ea4a6.css.map": "/haawks/static/css/main.c36ea4a6.css.map",
+    "main.5f940930.js.map": "/haawks/static/js/main.5f940930.js.map",
     "787.340af62a.chunk.js.map": "/haawks/static/js/787.340af62a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b58224d.css",
-    "static/js/main.f6c6597b.js"
+    "static/css/main.c36ea4a6.css",
+    "static/js/main.5f940930.js"
   ]
 }
