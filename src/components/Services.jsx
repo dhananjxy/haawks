@@ -74,13 +74,13 @@ const Services = () => {
             <h2 className='text-4xl text-[#4CC9F0] pb-10 font-bold'>Asset Tokenisation</h2>
             <p className='text-white text-xl font-bold pb-10'>Details. </p>
             <ul>
-                <li className='text-gray-100 pb-5'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"></i> Asset tokenization in real estate is the process of converting ownership of a property into digital tokens that can be traded on a blockchain-based platform. Tokenization allows fractional ownership of an asset, which means that a single property can be divided into smaller pieces, represented as tokens, that can be bought and sold by investors. </li>
-                <li className='text-gray-100 pb-5'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"></i> The process of tokenization involves digitizing the asset's legal ownership, value, and other relevant information, which is then recorded on a blockchain. This creates a transparent and immutable ledger of ownership that can be verified and traced at any time.</li>
+                <li className='text-gray-100 pb-5'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"></i> Asset tokenization in real estate is the process of converting ownership of a property into digital tokens that can be traded on a blockchain-based platform.</li>
+                <li className='text-gray-100 pb-5'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"></i> The process of tokenization involves digitizing the asset's legal ownership, value, and other relevant information, which is then recorded on a blockchain.</li>
             </ul>
             <br/>
             <p className='text-white text-xl font-bold pb-10'>Utility. </p>
             <ul>
-                <li className='text-gray-100 pb-5'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"></i> Tokenization can provide many benefits for real estate investors and property owners. It can increase liquidity, reduce transaction costs, and lower the barriers to entry for smaller investors. Additionally, tokenization can provide a new way for property owners to raise capital by selling a portion of their property's ownership </li>
+                <li className='text-gray-100 pb-5'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"></i> Tokenization can provide many benefits for real estate investors and property owners.</li>
                 <li className='text-gray-100 pb-5'><i class="fa-solid fa-check px-1 text-[#4CC9F0]"></i> Overall, asset tokenization is an innovative solution that has the potential to transform the way real estate transactions are conducted and increase access to investment opportunities in the industry.</li>
             </ul>
             <br/>

@@ -3,7 +3,7 @@ import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import AddIcon from '@mui/icons-material/Add';
 
 export default function Frequentquestions() {
   const [expanded, setExpanded] = React.useState(false);
@@ -14,32 +14,33 @@ export default function Frequentquestions() {
 
   return (
     <div>
-      <Accordion classes={{color:"#00000012", borderRadius:"6px"}} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+      <Accordion sx={{borderRadius:".25rem", margin:"5px"}} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<AddIcon />}
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>
+          {/* <Typography className='mulish' sx={{ width: '33%', flexShrink: 0 }}>
             General settings
-          </Typography>
-          <Typography sx={{ color: 'text.secondary' }}>I am an accordion</Typography>
+          </Typography> */}
+          <Typography className='mulish'>I am an accordion</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className='mulish' sx={{fontSize:"14px", fontFamily:"Mulish"}}>
             Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
             Aliquam eget maximus est, id dignissim quam.
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      
+      <Accordion sx={{borderRadius:".25rem", margin:"5px"}} expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<AddIcon />}
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>Users</Typography>
-          <Typography sx={{ color: 'text.secondary' }}>
+          {/* <Typography className='mulish' sx={{ width: '33%', flexShrink: 0, fontFamily:'Mulish' }}>Users</Typography> */}
+          <Typography>
             You are currently not an owner
           </Typography>
         </AccordionSummary>
@@ -51,16 +52,35 @@ export default function Frequentquestions() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+      <Accordion sx={{borderRadius:".25rem", margin:"5px"}} expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<AddIcon />}
+          aria-controls="panel2bh-content"
+          id="panel2bh-header"
+        >
+          {/* <Typography className='mulish' sx={{ width: '33%', flexShrink: 0, fontFamily:'Mulish' }}>Users</Typography> */}
+          <Typography>
+            You are currently not an owner
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Donec placerat, lectus sed mattis semper, neque lectus feugiat lectus,
+            varius pulvinar diam eros in elit. Pellentesque convallis laoreet
+            laoreet.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion sx={{borderRadius:".25rem", margin:"5px"}} expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+        <AccordionSummary
+          expandIcon={<AddIcon />}
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>
+          {/* <Typography sx={{ width: '33%', flexShrink: 0 }}>
             Advanced settings
-          </Typography>
-          <Typography sx={{ color: 'text.secondary' }}>
+          </Typography> */}
+          <Typography>
             Filtering has been entirely disabled for whole web server
           </Typography>
         </AccordionSummary>
@@ -71,13 +91,17 @@ export default function Frequentquestions() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+      
+      <Accordion sx={{borderRadius:".25rem", margin:"5px"}} expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<AddIcon />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>Personal data</Typography>
+          {/* <Typography sx={{ width: '33%', flexShrink: 0 }}>Personal data</Typography> */}
+          <Typography>
+            Filtering has been entirely disabled for whole web server
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

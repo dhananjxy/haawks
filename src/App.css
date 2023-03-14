@@ -3,7 +3,17 @@
 }
 /* The hero image */
 .vheight{
-height: 83vh;
+height: 93vh;
+margin-top:-10vh;
+/* position: relative; */
+
+}
+body{
+  overflow-x: hidden;
+}
+.postop{
+  top:-10vh;
+  position: relative;
 }
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */

@@ -1,6 +1,6 @@
 
 import React from "react";
-
+import Logo from '../images/Haawks logo.PNG'
 export default function Navbar() {
     function toogleUl() {
         var navbar = document.querySelector(".navbar")
@@ -37,8 +37,8 @@ export default function Navbar() {
             </div>
         </div>
     
-        <div className="stickbar navbar  bg-gradient-to-r from-[#220056] to-[#540444]">
-            <h1 className="logo text-white text-3xl font-bold">HAAWKS</h1>
+        <div className="stickbar navbar  bg-transparent">
+            <img className="ml-8 h-16 w-16" src={Logo} alt="" />
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
